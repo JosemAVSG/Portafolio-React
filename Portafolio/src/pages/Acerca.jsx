@@ -37,14 +37,12 @@ const Acerca = () => {
 
       <Btnwhatsapp/>
       <div className="wrapper">
-      <Cards img="https://images.unsplash.com/photo-1536304929831-ee1ca9d44906?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
-        title="The Everyday Salad"
-        description="Take your boring salads up a knotch. This recipe is perfect for lunch
-          and only contains 5 ingredients!" />
-      <Cards img="https://images.unsplash.com/photo-1536304929831-ee1ca9d44906?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
-        title="The Everyday Salad"
-        description="Take your boring salads up a knotch. This recipe is perfect for lunch
-          and only contains 5 ingredients!"/>
+      <Cards img="./imagenes/weather.jpg"
+        title="Weather-APP"
+        description="App que permite ve el clima de tu ciudad!" />
+      <Cards img="./imagenes/jp.jpg"
+        title="Search bikes"
+        description="App que permite buscar bicicletas robadas!"/>
       <Cards img="https://images.unsplash.com/photo-1536304929831-ee1ca9d44906?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
         title="The Everyday Salad"
         description="Take your boring salads up a knotch. This recipe is perfect for lunch
@@ -62,35 +60,54 @@ const Acerca = () => {
               </div>
                     <h3>Javascript</h3>
             </div>
-                  <p>Actualmente tengo conocimiento intermedio casi avanzado</p>
+                  <p></p>
           </div>
           <div className="skill-box">
             <div className="skill-title">
               <div className="img">
-                  <img className="skill-icon" src="../imagenes/html.png" alt="Javascript" />
+                  <img className="skill-icon" src="../imagenes/html.png" alt="Html" />
               </div>
-                    <h3>Javascript</h3>
+                    <h3>HTML5</h3>
             </div>
-                  <p>Actualmente tengo conocimiento intermedio casi avanzado</p>
+                  <p></p>
           </div>
           <div className="skill-box">
             <div className="skill-title">
               <div className="img">
-                  <img className="skill-icon" src="../imagenes/css3.png"  alt="Javascript" />
+                  <img className="skill-icon css" src="../imagenes/css3.png"  alt="CSS3" />
               </div>
-                    <h3>Javascript</h3>
+                    <h3>CSS3</h3>
             </div>
-                  <p>Actualmente tengo conocimiento intermedio casi avanzado</p>
+                  <p></p>
           </div>
           <div className="skill-box">
             <div className="skill-title">
               <div className="img">
-                  <img className="skill-icon" src="../imagenes/ogo-react-js.png" alt="Javascript" />
+                  <img className="skill-icon" src="../imagenes/ogo-react-js.png" alt="React" />
               </div>
-                    <h3>Javascript</h3>
+                    <h3>React</h3>
             </div>
-                  <p>Actualmente tengo conocimiento intermedio casi avanzado</p>
+                  <p></p>
           </div>
+          <div className="skill-box">
+            <div className="skill-title">
+              <div className="img">
+                  <img className="skill-icon" src="../imagenes/mongo.png" alt="MongoDb" />
+              </div>
+                    <h3>MongoDb</h3>
+            </div>
+                  <p></p>
+          </div>
+          <div className="skill-box">
+            <div className="skill-title">
+              <div className="img">
+                  <img className="skill-icon" src="../imagenes/mysql.png" alt="Mysql" />
+              </div>
+                    <h3>Mysql</h3>
+            </div>
+                  <p></p>
+          </div>
+       
       </div>
 
 
@@ -182,13 +199,18 @@ const Acercaux = styled.div`
     border-radius:45px 0 0 45px;
   }
 
-  @media scree and (max-width:990px){
+  .img .css{
+    width:45px;
+  }
+
+
+  @media screen and (max-width:990px){
     .container-skill{
         grid-template-columns: repeat(2,1fr);
         padding:2rem 50px;
     }
   }
-  @media scree and (max-width:650px){
+  @media screen and (max-width:650px){
     .container-skill{
         grid-template-columns: 1fr;
        
