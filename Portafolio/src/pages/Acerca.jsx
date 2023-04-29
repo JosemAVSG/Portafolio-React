@@ -1,6 +1,6 @@
 import Cards from "../components/Cards";
 import { Btnwhatsapp } from "../components/Btnwhatsapp";
-import Typed from "typed.js";
+import Typed from "typed";
 import { useEffect,useRef } from "react";
 import styled from 'styled-components'
 import Tecnologias from "../components/Tecnologias";
