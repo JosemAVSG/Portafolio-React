@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+
+body{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 100vh;
+}
+ .acerca{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 100vh;
+}
+.contacto{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 100vh;
+  
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: #f3f1ed;
+  }
+.foot {
+    margin-top: auto;
+    background-color: rgb(0, 0, 0);
+
+  }
