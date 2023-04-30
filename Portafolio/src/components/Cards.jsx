@@ -11,7 +11,7 @@ const Cards = (props) => {
             <p className='card-description'>{props.description}</p>
 
         </div>
-        <button className='card-btn'><a href={props.url}>Ver Proyecto </a></button>
+        <a className='card-btn' href={props.url}>Ver Proyecto </a>
     </div> 
  
     </StyledCard>
@@ -37,6 +37,9 @@ body {
 }
 a{
   text-decoration:none;
+  display:flex;
+  justify-content:center;
+  align-content:center;
 }
 
 
@@ -85,10 +88,11 @@ a{
  
 }
 
-.card-btn:hover{
+
+.card-btn:hover  {
   
     transform: scale(1.02);
-
+    
     background:red;
     color: white;
 }
