@@ -11,7 +11,7 @@ const Cards = (props) => {
             <p className='card-description'>{props.description}</p>
 
         </div>
-        <a className='card-btn' href={props.url}>Ver Proyecto </a>
+        <a className='card-btn' target="_blank" rel="noopener noreferrer" href={props.url}>Ver Proyecto </a>
     </div> 
  
     </StyledCard>
