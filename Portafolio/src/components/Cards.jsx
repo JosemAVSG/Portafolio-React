@@ -35,7 +35,9 @@ body {
   font-family: Oxygen, sans-serif;
   margin: 2rem;
 }
-
+a{
+  text-decoration:none;
+}
 
 
 .card {
