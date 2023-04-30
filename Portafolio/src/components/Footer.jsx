@@ -17,7 +17,7 @@ const Footer=()=>{
     
             <a href="/" className="d-flex text-decoration-none logof ">
       
-               <img  src="/imagenes/Jg logo-01.png" style={{marginTop: '20px', height:'50px', width: '50px'}}/>
+               <img  src="src/assets/imagenes/Jg logo-01.png" style={{marginTop: '20px', height:'50px', width: '50px'}}/>
                <ul className="list-unstyled d-flex  py-4 px-2 nav flex-column">
                 <li><span className="text-light nav-item">&copy; JG TECH </span></li>
               </ul></a>
