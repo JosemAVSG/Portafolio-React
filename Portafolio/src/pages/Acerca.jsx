@@ -40,13 +40,15 @@ const Acerca = () => {
       <Cards img={homeimg.weather}
         title="Weather-APP"
         description="App que permite ve el clima de tu ciudad!" />
-      <Cards img={homeimg.jp}
+      <Cards img={homeimg.bikes}
         title="Search bikes"
         description="App que permite buscar bicicletas robadas!"/>
       <Cards img="https://images.unsplash.com/photo-1536304929831-ee1ca9d44906?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
         title="The Everyday "
         description="Take your boring salads up a knotch. This recipe is perfect for lunch
-          "/>
+          "
+        url="https://weather-p40ousxb7-josemavsg.vercel.app"
+          />
           </div>
 
       <br></br>
