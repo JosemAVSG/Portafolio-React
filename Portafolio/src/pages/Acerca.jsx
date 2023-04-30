@@ -1,33 +1,33 @@
 import Cards from "../components/Cards";
 import { Btnwhatsapp } from "../components/Btnwhatsapp";
-// import Typed from "typed.js";
+import Typed from "typed.js";
 import { useEffect,useRef } from "react";
 import styled from 'styled-components'
 
 
 const Acerca = () => {
-  // const el = useRef(null);
+  const el = useRef(null);
 
-  // useEffect(() => {
-  //   const typed = new Typed(el.current, {
-  //     strings: ["My Skills"], // Strings to display
-  //     // Speed settings, try diffrent values untill you get good results
-  //     startDelay: 300,
-  //     typeSpeed: 100,
-  //     backSpeed: 100,
-  //     backDelay: 100,
-  //     smartBackspace: true,
-  //     loop: true,
-  //     showCursor: true,
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ["My Skills"], // Strings to display
+      // Speed settings, try diffrent values untill you get good results
+      startDelay: 300,
+      typeSpeed: 100,
+      backSpeed: 100,
+      backDelay: 100,
+      smartBackspace: true,
+      loop: true,
+      showCursor: true,
       
       
-  //   });
+    });
 
-  //   // Destropying
-  //   return () => {
-  //     typed.destroy();
-  //   };
-  // }, []);
+    // Destropying
+    return () => {
+      typed.destroy();
+    };
+  }, []);
 
 
 
@@ -50,7 +50,7 @@ const Acerca = () => {
           </div>
 
       <br></br>
-      {/* <h2>  <span ref={el}></span></h2> */}
+      <h2>  <span ref={el}></span></h2>
 
       <div className="container-skill">
           <div className="skill-box">

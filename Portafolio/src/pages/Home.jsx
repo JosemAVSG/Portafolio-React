@@ -1,5 +1,5 @@
 import Tecnologias from "../components/Tecnologias";
-// import Typed from "typed.js";
+import Typed from "typed.js";
 import { useEffect,useRef } from "react";
 import { Btnwhatsapp } from "../components/Btnwhatsapp";
 import homeimg from "../assets/homeimg";
@@ -9,27 +9,27 @@ import homeimg from "../assets/homeimg";
 
 const Home = () => {
 
-  // const el = useRef(null);
+  const el = useRef(null);
 
-  // useEffect(() => {
-  //   const typed = new Typed(el.current, {
-  //     strings: ["Javascript", "Css", "Html", "React"], // Strings to display
-  //     // Speed settings, try diffrent values untill you get good results
-  //     startDelay: 300,
-  //     typeSpeed: 100,
-  //     backSpeed: 100,
-  //     backDelay: 100,
-  //     smartBackspace: true,
-  //     loop: true,
-  //     showCursor: true,
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ["Javascript", "Css", "Html", "React"], // Strings to display
+      // Speed settings, try diffrent values untill you get good results
+      startDelay: 300,
+      typeSpeed: 100,
+      backSpeed: 100,
+      backDelay: 100,
+      smartBackspace: true,
+      loop: true,
+      showCursor: true,
       
-  //   });
+    });
 
-  //   // Destropying
-  //   return () => {
-  //     typed.destroy();
-  //   };
-  // }, []);
+    // Destropying
+    return () => {
+      typed.destroy();
+    };
+  }, []);
 
 
   
@@ -38,7 +38,7 @@ const Home = () => {
 <Btnwhatsapp/>
     <article className="hero-image">
       <div><h1>Bienvenido a Mi Portafolio</h1>
-      {/* <h2>Me encanta el desarrollo web y las tecnologias <span ref={el}></span></h2> */}
+      <h2>Me encanta el desarrollo web y las tecnologias <span ref={el}></span></h2>
       </div>
       
     </article>

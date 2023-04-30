@@ -1,13 +1,13 @@
 import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
-
+import logo from '../assets/imagenes/Jg logo-01.png'
 const Navigation = () => {
 
   return (
       <>
       <NavContainer>
      
-      <img src="src/assets/imagenes/Jg logo-01.png" style={{height:'50px', width: '50px'}}/>
+      <img src={logo} style={{height:'50px', width: '50px'}}/>
       <div>
         <NavLink exact="true" to="/" className="navi" activeclassname="active">
           Home
