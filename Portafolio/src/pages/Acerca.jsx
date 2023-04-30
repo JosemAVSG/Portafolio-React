@@ -3,7 +3,7 @@ import { Btnwhatsapp } from "../components/Btnwhatsapp";
 import Typed from "typed.js";
 import { useEffect,useRef } from "react";
 import styled from 'styled-components'
-import Tecnologias from "../components/Tecnologias";
+
 
 const Acerca = () => {
   const el = useRef(null);
@@ -44,9 +44,9 @@ const Acerca = () => {
         title="Search bikes"
         description="App que permite buscar bicicletas robadas!"/>
       <Cards img="https://images.unsplash.com/photo-1536304929831-ee1ca9d44906?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
-        title="The Everyday Salad"
+        title="The Everyday "
         description="Take your boring salads up a knotch. This recipe is perfect for lunch
-          and only contains 5 ingredients!"/>
+          "/>
           </div>
 
       <br></br>

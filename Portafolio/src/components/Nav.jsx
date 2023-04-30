@@ -8,13 +8,13 @@ const Navigation = () => {
       <NavContainer>
       <img  src="/imagenes/Jg logo-01.png" style={{height:'50px', width: '50px'}}/>
       <div>
-        <NavLink exact="true" to="/" className="navi" activeClassName="active">
+        <NavLink exact="true" to="/" className="navi" activeclassname="active">
           Home
         </NavLink>
-        <NavLink exact="true" to="/acerca" className="navi" activeClassName="active">
+        <NavLink exact="true" to="/acerca" className="navi" activeclassname="active">
           Proyectos
         </NavLink>
-        <NavLink exact="true" to="/contacto" className="navi" activeClassName="active">
+        <NavLink exact="true" to="/contacto" className="navi" activeclassname="active">
           Contacto
         </NavLink>
          </div>
