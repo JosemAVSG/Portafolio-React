@@ -3,7 +3,7 @@ import Typed from "typed.js";
 import { useEffect,useRef } from "react";
 import { Btnwhatsapp } from "../components/Btnwhatsapp";
 import homeimg from "../assets/homeimg";
-
+import hojadevida from'../assets/hojadevida.pdf';
 
 
 
@@ -69,7 +69,7 @@ const Home = () => {
           <li>Jose Miguel González Guzmán</li>
           <li>Nací en Venezuela. 10, 28, 1995</li>
           <li>Vivo en Cali, Colombia</li>
-          <a href="/assets/Curriculum-jose Miguel.docx">Hoja De vida</a>
+          <a target="_blank" rel="noopener noreferrer" href={hojadevida}>Hoja De vida</a>
         </ul>
         
       </div>
