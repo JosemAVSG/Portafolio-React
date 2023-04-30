@@ -1,7 +1,7 @@
 import react ,{ useState,useEffect } from 'react'
 import Acerca from './pages/Acerca';
 import Home from  './pages/Home';
-import { BrowserRouter as Router, Routes, Route,useNavigation } from'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from'react-router-dom';
 import Error404 from './pages/Error404';
 import Contacto from './pages/Contacto';
 import Navigation from './components/Nav';
