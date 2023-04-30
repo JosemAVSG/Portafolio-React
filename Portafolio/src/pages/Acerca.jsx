@@ -3,7 +3,7 @@ import { Btnwhatsapp } from "../components/Btnwhatsapp";
 import Typed from "typed.js";
 import { useEffect,useRef } from "react";
 import styled from 'styled-components'
-
+import homeimg from "../assets/homeimg";
 
 const Acerca = () => {
   const el = useRef(null);
@@ -37,10 +37,10 @@ const Acerca = () => {
 
       <Btnwhatsapp/>
       <div className="wrapper">
-      <Cards img="src/assets/imagenes/weather.jpg"
+      <Cards img={homeimg.weather}
         title="Weather-APP"
         description="App que permite ve el clima de tu ciudad!" />
-      <Cards img="src/assets/imagenes/jp.jpg"
+      <Cards img={homeimg.jp}
         title="Search bikes"
         description="App que permite buscar bicicletas robadas!"/>
       <Cards img="https://images.unsplash.com/photo-1536304929831-ee1ca9d44906?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
@@ -56,7 +56,7 @@ const Acerca = () => {
           <div className="skill-box">
             <div className="skill-title">
               <div className="img">
-                  <img className="skill-icon"src="src/assets/imagenes/js.png" alt="Javascript" />
+                  <img className="skill-icon"src={homeimg.js} alt="Javascript" />
               </div>
                     <h3>Javascript</h3>
             </div>
@@ -65,7 +65,7 @@ const Acerca = () => {
           <div className="skill-box">
             <div className="skill-title">
               <div className="img">
-                  <img className="skill-icon" src="src/assets/imagenes/html.png" alt="Html" />
+                  <img className="skill-icon" src={homeimg.html} alt="Html" />
               </div>
                     <h3>HTML5</h3>
             </div>
@@ -74,7 +74,7 @@ const Acerca = () => {
           <div className="skill-box">
             <div className="skill-title">
               <div className="img">
-                  <img className="skill-icon css" src="src/assets/imagenes/css3.png"  alt="CSS3" />
+                  <img className="skill-icon css" src={homeimg.css}  alt="CSS3" />
               </div>
                     <h3>CSS3</h3>
             </div>
@@ -83,7 +83,7 @@ const Acerca = () => {
           <div className="skill-box">
             <div className="skill-title">
               <div className="img">
-                  <img className="skill-icon" src="src/assets/imagenes/ogo-react-js.png" alt="React" />
+                  <img className="skill-icon" src={homeimg.react} alt="React" />
               </div>
                     <h3>React</h3>
             </div>
@@ -92,7 +92,7 @@ const Acerca = () => {
           <div className="skill-box">
             <div className="skill-title">
               <div className="img">
-                  <img className="skill-icon" src="src/assets/imagenes/mongo.png" alt="MongoDb" />
+                  <img className="skill-icon" src={homeimg.mongo} alt="MongoDb" />
               </div>
                     <h3>MongoDb</h3>
             </div>
@@ -101,7 +101,7 @@ const Acerca = () => {
           <div className="skill-box">
             <div className="skill-title">
               <div className="img">
-                  <img className="skill-icon" src="src/assets/imagenes/mysql.png" alt="Mysql" />
+                  <img className="skill-icon" src={homeimg.mysql} alt="Mysql" />
               </div>
                     <h3>Mysql</h3>
             </div>
