@@ -2,6 +2,10 @@ import Tecnologias from "../components/Tecnologias";
 // import Typed from "typed.js";
 import { useEffect,useRef } from "react";
 import { Btnwhatsapp } from "../components/Btnwhatsapp";
+import homeimg from "../assets/homeimg";
+
+
+
 
 const Home = () => {
 
@@ -51,7 +55,7 @@ const Home = () => {
       </div>
       <div className="col-md-5">
 
-        <img className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="src/assets/imagenes/programar.jpg" width="500" height="500" alt="Yo" focusable="false"/>
+        <img className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src={homeimg.img6} width="500" height="500" alt="Yo" focusable="false"/>
       
       </div>
     </div>
@@ -70,7 +74,7 @@ const Home = () => {
         
       </div>
       <div className="col-md-5 order-md-1">
-        <img className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="src/assets/imagenes/20200529_204110.jpg"  width="500" height="500" alt="Yo" focusable="false"/>
+        <img className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src={homeimg.img2}  width="500" height="500" alt="Yo" focusable="false"/>
       
        
       </div>
@@ -78,7 +82,7 @@ const Home = () => {
     <hr className="featurette-divider"/>
    <div className="row" >
     <div className="col-lg-4">
-      <img className="jello-horizontal" src="src/assets/imagenes/objetivo.png" width="140" height="140" x="50%" y="50%" alt="objetivos" focusable="false"/>
+      <img className="jello-horizontal" src={homeimg.img3} width="140" height="140" x="50%" y="50%" alt="objetivos" focusable="false"/>
       <h2>Objetivo</h2>
       <p>Mi Objetivo es Incorporarme a una institución o empresa que me 
         dé la oportunidad de desarrollarme 
@@ -90,7 +94,7 @@ const Home = () => {
     
     <div className="col-lg-4" >
       
-      <img className="rotate-center" src="src/assets/imagenes/skills.png" width="140" height="140" x="50%" y="50%" alt="objetivos" focusable="false"/>
+      <img className="rotate-center" src={homeimg.img4} width="140" height="140" x="50%" y="50%" alt="objetivos" focusable="false"/>
       
       <h2>Habilidades</h2>
       <ul >
@@ -103,7 +107,7 @@ const Home = () => {
 
     </div>
     <div className="col-lg-4 git">
-      <img className="rotate-center" src="src/assets/imagenes/github.png" width="140" height="140" x="50%" y="50%" alt="objetivos" focusable="false"/>
+      <img className="rotate-center" src={homeimg.img5} width="140" height="140" x="50%" y="50%" alt="objetivos" focusable="false"/>
       
       <h2>Repositorio</h2>
       <a href="https://github.com/JosemAVSG" rel="noopener" target="_blank">Mygithub</a>
@@ -121,7 +125,7 @@ const Home = () => {
           </p>
       </div>
       <div className="col-md-5">
-        <img className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="src/assets/imagenes/aprendizaje.jpg"  width="500" height="500" alt="Yo" focusable="false"/>
+        <img className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src={homeimg.img1}  width="500" height="500" alt="Yo" focusable="false"/>
       
       </div>
     </div>
