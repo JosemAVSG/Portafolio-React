@@ -44,10 +44,10 @@ const Acerca = () => {
       <Cards img={homeimg.bikes}
         title="Search bikes"
         description="App que permite buscar bicicletas robadas!"/>
-      <Cards img="https://images.unsplash.com/photo-1536304929831-ee1ca9d44906?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
-        title="The Everyday "
-        description="Take your boring salads up a knotch. This recipe is perfect for lunch
-          "
+      <Cards img={homeimg.rick}
+        title="Personajes de Rick and morty "
+        description="App que permite ver los personajes de rick and morty"
+        url="https://rickandmorty-hyjn00rgb-josemavsg.vercel.app/"
         
           />
           </div>

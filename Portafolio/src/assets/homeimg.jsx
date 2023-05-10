@@ -13,6 +13,7 @@ import mysql from './imagenes/mysql.png'
 import react from './imagenes/ogo-react-js.png'
 import weather from './imagenes/weather.jpg'
 import bikes from './imagenes/jp.jpg'
+import rickandmorty from './imagenes/rickandmory.png'
 
 export default{
     img1:aprendizaje,
@@ -29,5 +30,6 @@ export default{
     mysql:mysql,
     react:react,
     weather:weather,
-    bikes:bikes
+    bikes:bikes,
+    rick:rickandmorty
 }
