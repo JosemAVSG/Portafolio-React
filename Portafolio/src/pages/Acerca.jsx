@@ -63,7 +63,7 @@ const Acerca = () => {
               </div>
                     <h3>Javascript</h3>
             </div>
-                  <p></p>
+                 
           </div>
           <div className="skill-box">
             <div className="skill-title">
@@ -72,7 +72,7 @@ const Acerca = () => {
               </div>
                     <h3>HTML5</h3>
             </div>
-                  <p></p>
+                  
           </div>
           <div className="skill-box">
             <div className="skill-title">
@@ -81,7 +81,7 @@ const Acerca = () => {
               </div>
                     <h3>CSS3</h3>
             </div>
-                  <p></p>
+                  
           </div>
           <div className="skill-box">
             <div className="skill-title">
@@ -90,7 +90,7 @@ const Acerca = () => {
               </div>
                     <h3>React</h3>
             </div>
-                  <p></p>
+                 
           </div>
           <div className="skill-box">
             <div className="skill-title">
@@ -99,7 +99,7 @@ const Acerca = () => {
               </div>
                     <h3>MongoDb</h3>
             </div>
-                  <p></p>
+                  
           </div>
           <div className="skill-box">
             <div className="skill-title">
@@ -108,7 +108,7 @@ const Acerca = () => {
               </div>
                     <h3>Mysql</h3>
             </div>
-                  <p></p>
+                  
           </div>
        
       </div>
