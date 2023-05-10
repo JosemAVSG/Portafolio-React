@@ -45,7 +45,7 @@ const Acerca = () => {
         title="Search bikes"
         description="App que permite buscar bicicletas robadas!"/>
       <Cards img={homeimg.rick}
-        title="Personajes de Rick and morty "
+        title="Rick and Morty Chars "
         description="App que permite ver los personajes de rick and morty"
         url="https://rickandmorty-hyjn00rgb-josemavsg.vercel.app/"
         
