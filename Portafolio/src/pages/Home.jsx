@@ -43,7 +43,7 @@ const Home = () => {
       
     </article>
 
-    <div className="container marketing">
+    <div className="container-fluid marketing">
 
      
 
