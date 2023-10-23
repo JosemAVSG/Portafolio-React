@@ -7,8 +7,8 @@ const Navigation = () => {
       <>
       <NavContainer>
      
-      <img src={logo} style={{height:'60px', width: '120px'}}/>
-      <div>
+      <img src={logo} style={{height:'120px', width: '140px'}}/>
+      <div className='links'>
         <NavLink exact="true" to="/" className="navi" activeclassname="active">
           Home
         </NavLink>
@@ -44,9 +44,11 @@ padding:2rem;
   position: relative;
   color:#fff;
   padding: 0 10px;
- 
+ font-size: 30px;
 }
-
+.links{
+  margin-right: 100px;
+}
 
 .navi:after {
   content: "";
