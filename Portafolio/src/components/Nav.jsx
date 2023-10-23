@@ -7,7 +7,7 @@ const Navigation = () => {
       <>
       <NavContainer>
      
-      <img src={logo} style={{height:'100px', width: '150px'}}/>
+      <img src={logo} style={{height:'60px', width: '120px'}}/>
       <div>
         <NavLink exact="true" to="/" className="navi" activeclassname="active">
           Home
