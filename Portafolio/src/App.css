@@ -139,9 +139,12 @@
     box-shadow: 0 8 8 8px gray;
   }
 .hero-image{
+    
+        width: 100vw;
     min-height: 100vh;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: 1929px, 1080px;
+    
     background-image: url("./assets/imagenes/heroimage.jpg");
     
     color: aliceblue;

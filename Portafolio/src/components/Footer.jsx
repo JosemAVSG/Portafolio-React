@@ -20,7 +20,7 @@ const Footer=()=>{
     
             <a href="/" className="d-flex text-decoration-none logof ">
       
-               <img  src={logo} style={{marginTop: '20px', height:'120px', width: '140px'}}/>
+               <img  src={logo} style={{marginTop: '20px', height:'100px', width: '120px'}}/>
                <ul className="list-unstyled d-flex  py-4 px-2 nav flex-column">
                 <li><span className="text-light nav-item">&copy; JG TECH </span></li>
               </ul></a>
