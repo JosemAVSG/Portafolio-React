@@ -138,7 +138,7 @@ const Formulario = styled.form`
     width:80%;
     margin:0 auto;
     border:1px solid gray;
-    box-shadow: 0 0 8 gray;
+    box-shadow: 0 0 8px gray;
     
   }
   input{
